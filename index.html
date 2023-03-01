@@ -417,44 +417,42 @@
 
 
     <form class="form-modal">
+
 <label for="name" class="label-modal">Name</label>
 <div class="icon-pos">
     <input class="input-modal" type="text" id="name" name="name">
     <svg class="human" width="12px" height="12px">
         <use href="./images/icons.svg#icon-human"></use>
     </svg></div>
-</form>
 
-<form class="form-modal">
+
     <label for="tel" class="label-modal">Phone</label>
     <div class="icon-pos">
         <input class="input-modal" type="tel" id="tel" name="tel">
         <svg class="human" width="12px" height="12px">
             <use href="./images/icons.svg#icon-phone"></use>
         </svg></div>
-    </form>
 
-    <form class="form-modal">
+
         <label for="email" class="label-modal">Email</label>
         <div class="icon-pos">
             <input class="input-modal" type="email" id="email" name="email">
             <svg class="human" width="12px" height="12px">
                 <use href="./images/icons.svg#icon-message"></use>
             </svg></div>
-        </form>
 
-        <form class="form-modal">
+
             <label for="comment" class="label-modal">Comment</label>
             <textarea class="input-modal-s" name="comment" id="comment" rows="5" placeholder="Text input"></textarea>
-        </form>
-    
-        <form class="checkbox-form">
+            
+            <div class="checkbox-div">
             <input class="checkbox" id="checkbox" type="checkbox" name="checkbox" >
             <span class="icon-checkbox"></span>
-            <label class="label-checkbox" for="checkbox">I accept the terms and conditions of the Privacy Policy</label>
-    
+            <label class="label-checkbox" for="checkbox">I accept the terms and conditions of the <a href="" class="policy" > Privacy Policy</a> </label>
+        </div>
+            <button class="send" type="submit">Send</button>
+
         </form>
-        <button class="send" type="submit">Send</button>
 </div>
 </div>
 <script src="./js/modal.js"></script>
